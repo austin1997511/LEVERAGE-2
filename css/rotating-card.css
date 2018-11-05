@@ -31,6 +31,14 @@ h6 {
     font-family: "Montserrat", "Noto Sans TC", sans-serif;
 }
 
+.title-2 {
+    font-family: "Montserrat", "Noto Sans TC", sans-serif;
+}
+
+.title-3 {
+    font-family: "Montserrat", "Noto Sans TC", sans-serif;
+}
+
 .h1,
 h1 {
     font-size: 2.5rem
@@ -38,7 +46,7 @@ h1 {
 
 .h2,
 h2 {
-    font-size: 2rem
+    font-size: 5rem
 }
 
 .h3,
@@ -328,12 +336,37 @@ mark {
     margin-bottom: 90px;
     line-height: 90%;
 }
+
+
+.title-2{
+    font-family: "Montserrat";
+    color: #444;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 90%;
+}
+
+
+.title-3{
+    font-family: "Montserrat";
+    color: #444;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 50px;
+    line-height: 90%;
+}
+
+
 .title small{
     font-size: 17px;
     color: #9A9A9A;
     text-transform: uppercase;
-    margin: 0;
+    margin-bottom: 10px
 }
+
 .space-30{
 	height: 30px;
 	display: block;
@@ -343,7 +376,7 @@ mark {
     display: block;
 }
 .space-200{
-    height: 200px;
+    height: 100px;
     display: block;
 }
 .white-board{
@@ -1387,10 +1420,61 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 
 
+
+
+.footer {
+    padding: 24px 0;
+}
+
+.footer.footer-default {
+    background-color: #f2f2f2;
+}
+
 .footer nav {
     display: inline-block;
     float: left;
 }
+
+
+.footer ul {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li a {
+    color: inherit;
+    padding: 0.5rem;
+    font-size: 0.8571em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: none;
+}
+
+.footer .copyright {
+    font-size: 0.8571em;
+}
+
+.footer:after {
+    display: table;
+    clear: both;
+    content: " ";
+}
+
+
+
+
+
+
+
+
 
 .profile-page .nav-align-center {
     margin-top: 30px;
@@ -1401,6 +1485,11 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .section-full-page .footer,
 .section-full-page .footer .copyright a {
     color: #FFFFFF;
+}
+
+.section-full-page>.footer {
+    position: relative;
+    z-index: 4;
 }
 
 
@@ -2830,7 +2919,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
         color: inherit;
     }
     .footer .copyright {
-        float: right;
+        margin-left: 340px;
+        
     }
 }
 
@@ -2876,6 +2966,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
         margin-right: 0;
     }
     .footer .copyright {
+        margin-left: 15px;
         text-align: center;
     }
     .section-nucleo-icons .icons-container i {
@@ -3509,4 +3600,59 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
         z-index: 5;
         visibility: visible;
     }
+}
+
+
+.footer-big p {
+    color: #9A9A9A;
+    font-weight: 300;
+}
+
+
+.modal-content .modal-footer {
+    border-top: none;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    -webkit-justify-content: space-between;
+    /* Safari 6.1+ */
+    justify-content: space-between;
+}
+
+.modal-content .modal-footer button {
+    margin: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: auto;
+}
+
+.modal-content .modal-footer button.pull-left {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    left: -5px;
+}
+
+.modal-content .modal-body+.modal-footer {
+    padding-top: 0;
+}
+
+
+.modal.modal-mini .modal-footer button {
+    text-transform: uppercase;
+}
+
+.modal.modal-mini .modal-footer button:first-child {
+    opacity: .5;
+}
+
+.card-signup .footer {
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+
+.page-header footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
