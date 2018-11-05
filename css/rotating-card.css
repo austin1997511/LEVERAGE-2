@@ -1432,11 +1432,12 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .footer nav {
     display: inline-block;
-    float: left;
 }
 
 
 .footer ul {
+
+    margin-top: 25px;
     margin-bottom: 0;
     padding: 0;
     list-style: none;
@@ -1459,6 +1460,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .footer .copyright {
+    text-align: center;
+    margin-top: 25px;
     font-size: 0.8571em;
 }
 
@@ -2360,8 +2363,9 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
         text-align: center;
     }
     .footer .copyright {
-        text-align: right;
+        text-align: center;
     }
+
     .section-nucleo-icons .icons-container {
         margin-top: 65px;
     }
@@ -2919,8 +2923,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
         color: inherit;
     }
     .footer .copyright {
-        margin-left: 340px;
-        
+        text-align: center;
     }
 }
 
@@ -2966,7 +2969,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
         margin-right: 0;
     }
     .footer .copyright {
-        margin-left: 15px;
+        float: center;
         text-align: center;
     }
     .section-nucleo-icons .icons-container i {
@@ -2989,6 +2992,11 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
         right: 2%;
         max-width: 216px;
     }
+
+    .footer .copyright {
+        float: center;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -3009,6 +3017,11 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
         max-width: 120px;
         top: 99%;
     }
+
+    .footer .copyright {
+        float: center;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 517px) {
@@ -3025,6 +3038,11 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
     .section-images .hero-images-container-2 {
         top: 66%;
         right: 14%;
+    }
+
+    .footer .copyright {
+        float: center;
+        text-align: center;
     }
 }
 
@@ -3057,6 +3075,10 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
         right: 11px;
         top: 50%;
         transform: translateY(-50%);
+    }
+    .footer .copyright {
+        float: center;
+        text-align: center;
     }
 }
 
@@ -3611,9 +3633,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .modal-content .modal-footer {
     border-top: none;
-    padding-right: 24px;
     padding-bottom: 16px;
-    padding-left: 24px;
     -webkit-justify-content: space-between;
     /* Safari 6.1+ */
     justify-content: space-between;
